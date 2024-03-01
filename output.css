@@ -1280,6 +1280,11 @@ html {
   margin-bottom: 1.25rem;
 }
 
+.my-auto {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
 .mb-2 {
   margin-bottom: 0.5rem;
 }
@@ -1344,6 +1349,10 @@ html {
 
 .rounded-box {
   border-radius: var(--rounded-box, 1rem);
+}
+
+.rounded {
+  border-radius: 0.25rem;
 }
 
 .bg-base-300 {
