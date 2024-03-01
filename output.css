@@ -840,6 +840,14 @@ html {
   margin-top: 1.25rem;
 }
 
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
 .flex {
   display: flex;
 }
@@ -854,6 +862,10 @@ html {
 
 .w-44 {
   width: 11rem;
+}
+
+.w-80 {
+  width: 20rem;
 }
 
 .grow {
@@ -1015,6 +1027,18 @@ html {
 @media (min-width: 1024px) {
   .lg\:flex {
     display: flex;
+  }
+
+  .lg\:w-80 {
+    width: 20rem;
+  }
+
+  .lg\:w-\[\] {
+    width: ;
+  }
+
+  .lg\:w-\[500px\] {
+    width: 500px;
   }
 
   .lg\:flex-row {
